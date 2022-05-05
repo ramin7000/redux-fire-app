@@ -1,10 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+// import logo from './logo.svg';
+// import './App.css';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Navbar from "./components/layout/Navbar";
+import Notifications from "./components/dashboard/Notifications";
 function App() {
   return (
-    <div className="App">
+      <BrowserRouter>
+          <div className="App">
+              {/*Redux Firebase App*/}
+              <Navbar />
+              <Notifications />
+              {/*
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +26,9 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    */}
+          </div>
+      </BrowserRouter>
   );
 }
 
