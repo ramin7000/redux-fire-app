@@ -1,9 +1,9 @@
 {
+  "homepage": "https://ramin7000.github.io/redux-fire-app",
   "name": "redux-fire-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage": "https://ramin7000.github.io/redux-fire-app",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
