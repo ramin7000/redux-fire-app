@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/redux-fire-app/static/css/main.073c9b0a.css",
-    "main.js": "/redux-fire-app/static/js/main.9fbcfbf9.js",
+    "main.css": "/redux-fire-app/static/css/main.e6c13ad2.css",
+    "main.js": "/redux-fire-app/static/js/main.960929b7.js",
     "static/js/377.f3ce9ef6.chunk.js": "/redux-fire-app/static/js/377.f3ce9ef6.chunk.js",
     "service-worker.js": "/redux-fire-app/service-worker.js",
-    "static/media/logo.svg": "/redux-fire-app/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/redux-fire-app/index.html",
-    "main.073c9b0a.css.map": "/redux-fire-app/static/css/main.073c9b0a.css.map",
-    "main.9fbcfbf9.js.map": "/redux-fire-app/static/js/main.9fbcfbf9.js.map",
+    "main.e6c13ad2.css.map": "/redux-fire-app/static/css/main.e6c13ad2.css.map",
+    "main.960929b7.js.map": "/redux-fire-app/static/js/main.960929b7.js.map",
     "377.f3ce9ef6.chunk.js.map": "/redux-fire-app/static/js/377.f3ce9ef6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9fbcfbf9.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.960929b7.js"
   ]
 }
