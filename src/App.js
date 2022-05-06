@@ -3,15 +3,24 @@ import React from 'react';
 // import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
-import Notifications from "./components/dashboard/Notifications";
+import Dashboard from "./components/dashboard/Dashboard";
+import ProjectDetails from "./components/projects/ProjectDetails";
+
+
+
 function App() {
   return (
       <BrowserRouter>
           <div className="App">
               {/*Redux Firebase App*/}
               <Navbar />
-              <Notifications />
+              <Routes>
+                  <Route path="/" element={<Dashboard />} />
+                  <Route path="/project/:id" element={<ProjectDetails />} />
+              </Routes>
+
               {/*
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

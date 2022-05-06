@@ -5,10 +5,7 @@ import ProjectList from "../projects/ProjectList";
 export default function Notifications(){
     return (
         <div>
-            <p className="center">Notifications</p>
-            <Routes>
-                <Route path="/" element={<ProjectList />} />
-            </Routes>
+            <p className="center orange lighten-4">Project Notifications</p>
         </div>
     )
 }

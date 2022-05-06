@@ -8,7 +8,7 @@ export default function Navbar() {
         <div>
             <nav className="nav-wrapper grey darken-3">
                 <div className="container">
-                    <Link to="/" className="amber-text left" >ReduxFire</Link>
+                    <Link to="/" className="brand-logo amber-text left" >Redux.F.A</Link>
                     <SignedInLinks />
                     <SignedOutLinks />
                 </div>
