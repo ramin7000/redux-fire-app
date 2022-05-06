@@ -6,8 +6,8 @@ export default function SignedOutLinks() {
     return (
         <div>
             <ul className="right">
-                <li><NavLink to="/new-project">Signup</NavLink></li>
-                <li><NavLink to="/logstate">{(logstatus)? "Login": "Logout"}</NavLink></li>
+                <li><NavLink to="/signup">Signup</NavLink></li>
+                <li><NavLink to="/signin">Login</NavLink></li>
             </ul>
         </div>
     )
